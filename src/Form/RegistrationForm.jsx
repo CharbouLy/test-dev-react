@@ -79,7 +79,9 @@ class RegistrationForm extends React.Component {
     return 0 === Object.keys(errors).length;
   }
 
-  handleSubmit() {
+  handleSubmit(e) {
+    e.preventDefault();
+
     if (!this.validateForm(this.state.values)) {
       return;
     }

@@ -10,7 +10,11 @@ Unit tests aren't mandatory, but they clearly are a bonus... ;)
 
 Installation :
 --
-All you have to do is to install the vendors:
+First, clone the project :
+```
+git@github.com:FioulMarket/test-dev-react.git
+```
+Then, all you have to do is to install the vendors :
 ```
 npm install
 ```
@@ -39,16 +43,16 @@ Instructions :
 --
 For this test, you will be assigned of two tasks :
 
-###Task 1 :
+### Task 1 :
 In the `src/Form` directory, you will find two files `RegisterForm.jsx` and `RegisterForm.css`. 
 
 What we want you to do is to do some refactoring on the `RegisterForm.jsx`. We want this component to be reusable and way more presentationnal over functionnal !
 
-The cleaner it will be, the more chance you will have !
+The cleaner it will be, the more chance you will have ! Be confident with yourself, this test will give us an overview of your coding skills.
 
 Remember, feel free to use any library and to be dry and solid ! :)
 
-###Task 2 :
+### Task 2 :
 In the `src/Tab` directory you will have build a TabComponent that looks like this: 
 
 ![Tab TabComponent](public/img/tab.png?raw=true "TabComponent")
@@ -69,3 +73,5 @@ The component will work like this :
 ```
 
 The `<RegisterForm />` component will be the one you just refactored, and the `<Login />` one will be one you will create based on what you just did on the *Task 1*.
+
+*Don't worry too much about css, the only required thing is the tab style working properly.*
