@@ -1,11 +1,11 @@
 import React from 'react';
-import RegistrationForm from './Form/RegistrationForm';
 import './App.css';
+import TabComponent from './Tab/TabComponent';
 
 function App() {
   return (
-    <div className="App">
-      <RegistrationForm />
+    <div className="app">
+      <TabComponent />
     </div>
   );
 }
